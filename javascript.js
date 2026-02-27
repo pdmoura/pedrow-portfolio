@@ -1,3 +1,176 @@
+// --- Language Swapping ---
+const translations = {
+	pt: {
+		title: "Pedro Alves | Desenvolvedor Full Stack",
+		nav_about: "Sobre",
+		nav_projects: "Projetos",
+		nav_skills: "Habilidades",
+		nav_contact: "Contato",
+		hero_accent: "DEVELOPER",
+		hero_p: "Resolvo problemas com código e entrego produtos que fazem sentido para quem usa",
+		hero_btn: "PROJETOS",
+		about_title: "SOBRE MIM",
+		about_name: "Pedro",
+		about_p:
+			"Com experiência em projetos freelance, desenvolvo aplicações web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> e <strong>PostgreSQL</strong>. Focado em criar interfaces responsivas, código limpo e soluções escaláveis. Atualmente em busca de uma oportunidade para crescer, contribuir e aprender em um time de tecnologia. Cursando <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>.",
+		about_resume: "CURRÍCULO",
+		about_resume_link:
+			"https://drive.google.com/file/d/1tOE-ryRV-SCRF2QCrfNirsfUJOG3gG6b/view?usp=sharing",
+		projects_title: "PROJETOS",
+		project1_title: "Opine Agora SC",
+		project1_p:
+			"Portal de notícias robusto com CMS personalizado, sistema de comentários moderado e painel administrativo completo.",
+		project2_title: "Abbracci Psicologia",
+		project2_p:
+			"Plataforma para serviços de Psicologia do Trabalho com animações fluidas e design focado em conversão.",
+		project3_title: "MovieFlix",
+		project3_p:
+			"Plataforma de streaming de filmes com catálogo dinâmico, sistema de favoritos e busca avançada. Design focado em experiência imersiva.",
+		project4_title: "PsicoAdmin",
+		project4_p:
+			"Sistema de gestão para psicólogos com agenda dinâmica, automação de pagamentos via Pix e dashboard financeiro.",
+		project_status: "Em Desenvolvimento",
+		project5_title: "Arquiteto & Designer",
+		project5_p:
+			"Landing Page de alta conversão com Glassmorphism, efeitos Parallax e lógica TypeScript para cálculo de experiência.",
+		project_btn: "Ver projeto",
+		skills_title: "HABILIDADES",
+		skills_p:
+			"Principais ferramentas e tecnologias que impulsionam meus projetos:",
+		contact_title: "FALE COMIGO",
+		email_label: "E-mail",
+		skill_typescript: "TypeScript",
+		seo_description:
+			"Portfolio de Pedro Alves, Desenvolvedor Full Stack especializado em Next.js, TypeScript e Supabase. Criando soluções digitais robustas e escaláveis.",
+		og_description:
+			"Desenvolvedor Full Stack focado em interfaces modernas, responsivas e de alta performance.",
+		footer: "Copyright © 2026 - Pedro Alves.",
+	},
+	en: {
+		title: "Pedro Alves | Full Stack Developer",
+		nav_about: "About",
+		nav_projects: "Projects",
+		nav_skills: "Skills",
+		nav_contact: "Contact",
+		hero_accent: "DEVELOPER",
+		hero_p: "I solve problems with code and deliver products that make sense for those who use them.",
+		hero_btn: "PROJECTS",
+		about_title: "ABOUT ME",
+		about_name: "Pedro",
+		about_p:
+			"With experience in freelance projects, I develop modern <strong>Full Stack</strong> web applications using <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>. Focused on creating responsive interfaces, clean code, and scalable solutions. Currently seeking an opportunity to grow, contribute, and learn in a technology team. Studying <strong>Software Engineering</strong> at <strong>Brigham Young University</strong>.",
+		about_resume: "RESUME",
+		about_resume_link:
+			"https://drive.google.com/file/d/1JrOxzB8R4WX4jMDLhoQV2fAWJurcDQuy/view?usp=sharing",
+		projects_title: "PROJECTS",
+		project1_title: "Opine Agora SC",
+		project1_p:
+			"Robust news portal with custom CMS, moderated comment system and complete admin panel.",
+		project2_title: "Abbracci Psychology",
+		project2_p:
+			"Platform for Occupational Psychology services with fluid animations and design focused on conversion.",
+		project3_title: "MovieFlix",
+		project3_p:
+			"Movie streaming platform with dynamic catalog, favorites system and advanced search. Design focused on immersive experience.",
+		project4_title: "PsicoAdmin",
+		project4_p:
+			"Management system for psychologists with dynamic agenda, Pix payment automation and financial dashboard.",
+		project_status: "In Development",
+		project5_title: "Architect & Designer",
+		project5_p:
+			"High-conversion Landing Page with Glassmorphism, Parallax effects and TypeScript logic for calculating experience.",
+		project_btn: "View Project",
+		skills_title: "SKILLS",
+		skills_p: "Main tools and technologies that power my projects:",
+		contact_title: "GET IN TOUCH",
+		email_label: "Email",
+		skill_typescript: "TypeScript",
+		seo_description:
+			"Portfolio of Pedro Alves, Full Stack Developer specialized in Next.js, TypeScript and Supabase. Creating robust and scalable digital solutions.",
+		og_description:
+			"Full Stack Developer focused on modern, responsive and high-performance interfaces.",
+		footer: "Copyright © 2026 - Pedro Alves.",
+	},
+	es: {
+		title: "Pedro Alves | Desarrollador Full Stack",
+		nav_about: "Sobre",
+		nav_projects: "Proyectos",
+		nav_skills: "Habilidades",
+		nav_contact: "Contacto",
+		hero_accent: "DEVELOPER",
+		hero_p: "Resuelvo problemas con código y entrego productos que tienen sentido para quienes los usan.",
+		hero_btn: "PROYECTOS",
+		about_title: "SOBRE MÍ",
+		about_name: "Pedro",
+		about_p:
+			"Con experiencia en proyectos freelance, desarrollo aplicaciones web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> y <strong>PostgreSQL</strong>. Enfocado en crear interfaces responsivas, código limpio y soluciones escalables. Actualmente en busca de una oportunidad para crecer, contribuir y aprender en un equipo de tecnología. Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>.",
+		about_resume: "CURRÍCULUM",
+		about_resume_link:
+			"https://drive.google.com/file/d/1xDvyK4jugPrX52DCvupxX11zuFzrnKWE/view?usp=sharing",
+		projects_title: "PROYECTOS",
+		project1_title: "Opine Agora SC",
+		project1_p:
+			"Portal de noticias robusto con CMS personalizado, sistema de comentarios moderado y panel de administración completo.",
+		project2_title: "Abbracci Psicología",
+		project2_p:
+			"Plataforma para servicios de Psicología del Trabajo con animaciones fluidas y diseño enfocado a la conversión.",
+		project3_title: "MovieFlix",
+		project3_p:
+			"Plataforma de streaming de películas con catálogo dinámico, sistema de favoritos y búsqueda avanzada. Diseño centrado en una experiencia inmersiva.",
+		project4_title: "PsicoAdmin",
+		project4_p:
+			"Sistema de gestión para psicólogos con agenda dinámica, automatización de pagos vía Pix y panel financiero.",
+		project_status: "En Desarrollo",
+		project5_title: "Arquitecto & Diseñador",
+		project5_p:
+			"Landing Page de alta conversión con Glassmorphism, efectos Parallax y lógica TypeScript para el cálculo de la experiencia.",
+		project_btn: "Ver Proyecto",
+		skills_title: "HABILIDADES",
+		skills_p:
+			"Principales herramientas y tecnologías que impulsan mis proyectos:",
+		contact_title: "CONTÁCTAME",
+		email_label: "Correo",
+		skill_typescript: "TypeScript",
+		seo_description:
+			"Portafolio de Pedro Alves, Desarrollador Full Stack especializado en Next.js, TypeScript y Supabase. Creando soluciones digitales robustas y escalables.",
+		og_description:
+			"Desarrollador Full Stack enfocado en interfaces modernas, responsivas y de alto rendimiento.",
+		footer: "Copyright © 2026 - Pedro Alves.",
+	},
+};
+
+let currentLang = localStorage.getItem("lang") || "pt";
+
+const updateLanguage = (lang) => {
+	document.querySelectorAll("[data-i18n]").forEach((el) => {
+		const key = el.getAttribute("data-i18n");
+		if (translations[lang][key]) {
+			if (el.tagName === "TITLE") {
+				document.title = translations[lang][key];
+			} else if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+				el.placeholder = translations[lang][key];
+			} else if (el.tagName === "META") {
+				el.setAttribute("content", translations[lang][key]);
+			} else {
+				el.innerHTML = translations[lang][key];
+			}
+		}
+	});
+
+	// Update links with data-i18n-link
+	document.querySelectorAll("[data-i18n-link]").forEach((el) => {
+		const key = el.getAttribute("data-i18n-link");
+		if (translations[lang][key]) {
+			el.href = translations[lang][key];
+		}
+	});
+
+	document.getElementById("current-lang").textContent = lang.toUpperCase();
+	localStorage.setItem("lang", lang);
+	currentLang = lang;
+};
+
+// --- Navbar Scroll Effect ---
 window.addEventListener("scroll", () => {
 	const navbar = document.querySelector(".nav");
 	if (window.scrollY > 50) {
@@ -8,32 +181,73 @@ window.addEventListener("scroll", () => {
 });
 
 // --- Typewriter Effect ---
-const typewriterText = "Pedro Alves";
 const typewriterElement = document.getElementById("typewriter");
 let charIndex = 0;
 let isDeleting = false;
 
 const typeAnimation = () => {
-	const currentText = typewriterText.substring(0, charIndex);
-	typewriterElement.textContent = currentText;
+	const fullText = "Pedro Alves";
+	const firstName = "Pedro ";
+	let displayText = "";
 
-	if (!isDeleting && charIndex < typewriterText.length) {
+	if (!isDeleting) {
+		if (charIndex < firstName.length) {
+			displayText = fullText.substring(0, charIndex);
+		} else {
+			displayText =
+				firstName +
+				`<span class="accent">${fullText.substring(firstName.length, charIndex)}</span>`;
+		}
 		charIndex++;
-		setTimeout(typeAnimation, 150);
-	} else if (isDeleting && charIndex > 0) {
-		charIndex--;
-		setTimeout(typeAnimation, 100);
-	} else if (!isDeleting && charIndex === typewriterText.length) {
-		isDeleting = true;
-		setTimeout(typeAnimation, 5000); // Stay for 5 seconds
 	} else {
-		isDeleting = false;
-		setTimeout(typeAnimation, 500);
+		if (charIndex > firstName.length) {
+			displayText =
+				firstName +
+				`<span class="accent">${fullText.substring(firstName.length, charIndex)}</span>`;
+		} else {
+			displayText = fullText.substring(0, charIndex);
+		}
+		charIndex--;
 	}
+
+	typewriterElement.innerHTML = displayText;
+
+	let typeSpeed = isDeleting ? 100 : 150;
+
+	if (!isDeleting && charIndex === fullText.length + 1) {
+		typeSpeed = 5000;
+		isDeleting = true;
+	} else if (isDeleting && charIndex === 0) {
+		isDeleting = false;
+		typeSpeed = 500;
+	}
+
+	setTimeout(typeAnimation, typeSpeed);
 };
 
-typewriterElement.textContent = ""; // Clear initial text
 typeAnimation();
+
+// --- Language Switcher UI ---
+const langBtn = document.getElementById("lang-btn");
+const langSwitcher = document.querySelector(".lang-switcher");
+const langOptions = document.querySelectorAll(".lang-dropdown li");
+
+langBtn.addEventListener("click", (e) => {
+	e.stopPropagation();
+	langSwitcher.classList.toggle("active");
+});
+
+langOptions.forEach((option) => {
+	option.addEventListener("click", () => {
+		const lang = option.getAttribute("data-lang");
+		updateLanguage(lang);
+		langSwitcher.classList.remove("active");
+	});
+});
+
+document.addEventListener("click", () => {
+	langSwitcher.classList.remove("active");
+});
 
 // --- Hamburger Menu ---
 const hamburger = document.getElementById("hamburger");
@@ -176,8 +390,9 @@ const initSwiper = () => {
 	}
 };
 
-// Initial check
+// Initial calls
 initSwiper();
+updateLanguage(currentLang);
 
 // Handle resize
 window.addEventListener("resize", initSwiper);

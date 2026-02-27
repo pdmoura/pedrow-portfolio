@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* Fonts are now loaded via link tags in index.html for better performance */
 
 * {
 	margin: 0;
@@ -9,8 +9,8 @@
 :root {
 	--bg-primary: #000000;
 	--text-primary: #ffffff;
-	--text-secondary: #b0b0b0; /* Improved for WCAG AAA (7:1) */
-	--accent: #ff5261; /* Improved for WCAG AAA (7:1) */
+	--text-secondary: #bcb9b9;
+	--accent: #ff5261;
 	--accent-dark: #3a1012;
 	--glass-bg: rgba(255, 255, 255, 0.05);
 	--glass-border: rgba(255, 255, 255, 0.1);
@@ -102,19 +102,98 @@ main {
 	font-size: 1.8em;
 }
 
+.nav__right {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+/* Language Switcher */
+.lang-switcher {
+	position: relative;
+	z-index: 1001;
+}
+
+.lang-btn {
+	background: var(--glass-bg);
+	border: 1px solid var(--glass-border);
+	color: var(--text-primary);
+	padding: 8px 15px;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: bold;
+	font-size: 0.9em;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	white-space: nowrap;
+}
+
+.lang-btn:hover {
+	border-color: var(--accent);
+}
+
+.lang-dropdown {
+	position: absolute;
+	top: calc(100% + 10px);
+	right: 0;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid var(--glass-border);
+	border-radius: 12px;
+	list-style: none;
+	padding: 8px 0;
+	width: 150px;
+	display: none;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.lang-switcher.active .lang-dropdown {
+	display: block;
+	animation: fadeInDown 0.3s ease forwards;
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.lang-dropdown li {
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 0.9em;
+	transition: all 0.2s ease;
+	color: var(--text-secondary);
+	white-space: nowrap;
+}
+
+.lang-dropdown li:hover {
+	background: var(--glass-bg);
+	color: var(--accent);
+}
+
 .nav__link {
 	display: flex;
 	flex-flow: row nowrap;
 	list-style: none;
-	gap: 35px;
+	gap: 30px;
 }
 
 .nav__link li a {
 	color: var(--text-primary);
 	font-family: "Inter", sans-serif;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	transition: all 0.2s ease;
 	position: relative;
+	white-space: nowrap;
 }
 
 .nav__link li a:hover {
@@ -274,13 +353,15 @@ main {
 .about__item {
 	display: flex;
 	flex-flow: row wrap-reverse;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
+	gap: 3rem;
 }
 
 .about__text {
-	flex: 0 1 500px;
-	text-align: right;
+	flex: 1 1 600px;
+	text-align: left;
+	padding: 0 10px;
 }
 
 .about__text h2 {
@@ -330,6 +411,8 @@ main {
 		padding: 2rem 1rem 4rem;
 		margin: 0 -1rem;
 		overflow: hidden;
+		--swiper-navigation-color: var(--accent);
+		--swiper-pagination-color: var(--accent);
 	}
 
 	.projects__swiper .swiper-wrapper {
@@ -370,7 +453,7 @@ main {
 }
 
 .projects__pagination .swiper-pagination-bullet-active {
-	background: var(--accent);
+	background: var(--accent) !important;
 	opacity: 1;
 	width: 25px;
 	border-radius: 5px;
@@ -378,7 +461,7 @@ main {
 
 .projects__next,
 .projects__prev {
-	color: var(--accent);
+	color: var(--accent) !important;
 	transition: all 0.3s ease;
 	background: var(--glass-bg);
 	width: 50px;
@@ -396,9 +479,9 @@ main {
 
 .projects__next:hover,
 .projects__prev:hover {
-	background: var(--accent);
-	color: var(--text-primary);
-	border-color: var(--accent);
+	background: #ffffff;
+	color: var(--accent) !important;
+	border-color: #ffffff;
 }
 
 .project__card {
@@ -438,12 +521,21 @@ main {
 
 .project__info {
 	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .project__card h3 {
 	margin-bottom: 0.5rem;
 	font-size: 1.4rem;
 	color: var(--text-primary);
+	transition: color 0.3s ease;
+}
+
+.project__card:hover h3 {
+	color: var(--accent);
 }
 
 .project__card p {
@@ -456,32 +548,68 @@ main {
 .project__tags {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 8px;
 	margin-bottom: 1.5rem;
 }
 
 .project__tags span {
-	background: var(--accent-dark);
 	color: var(--accent);
 	padding: 4px 12px;
 	border-radius: 20px;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	font-weight: bold;
 	border: 1px solid var(--accent);
 }
 
 .project__card a {
 	display: inline-block;
-	color: var(--text-primary);
+	color: var(--accent);
+	padding: 12px 24px;
+	border-radius: 8px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 0.9rem;
-	transition: color 0.3s ease;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	border: 1px solid var(--accent);
 }
 
-.project__card a:hover {
-	color: var(--accent);
+.project__card:hover a {
+	background: var(--accent);
+	color: var(--text-primary);
+	transform: translateY(-3px);
+	box-shadow: 0 5px 15px var(--shadow);
+	border-color: var(--accent);
+}
+
+.project__status {
+	display: inline-block;
+	background: var(--glass-bg);
+	color: var(--text-secondary);
+	padding: 12px 24px;
+	border-radius: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.9rem;
+	border: 1px solid var(--glass-border);
+	cursor: default;
+}
+
+.project__card .project__img-container a {
+	padding: 0;
+	background: none;
+	border: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.project__card .project__img-container a:hover {
+	background: none;
+	transform: none;
+	box-shadow: none;
 }
 
 .skills__content {
@@ -610,17 +738,30 @@ main {
 }
 
 @media screen and (max-width: 900px) {
+	.container {
+		width: 92%;
+	}
+
 	.nav__content {
 		justify-content: space-between;
-		padding: 15px 20px;
+		padding: 15px 10px;
 	}
 
 	.nav__logo {
-		font-size: 1.4em;
+		font-size: 1.25em;
 	}
 
 	.hamburger {
 		display: flex;
+	}
+
+	.nav__right {
+		gap: 10px;
+	}
+
+	.lang-btn {
+		padding: 8px 10px;
+		font-size: 0.85em;
 	}
 
 	.nav__link {
