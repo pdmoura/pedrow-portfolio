@@ -12,7 +12,7 @@ const translations = {
 		about_title: "SOBRE MIM",
 		about_name: "Pedro",
 		about_p:
-			"Com experiência em projetos freelance, desenvolvo aplicações web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> e <strong>PostgreSQL</strong>. Focado em criar interfaces responsivas, código limpo e soluções escaláveis. Atualmente em busca de uma oportunidade para crescer, contribuir e aprender em um time de tecnologia. Cursando <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>.",
+			"Estudante de <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>, apaixonado por construir tecnologias significativas e colaborar com equipes motivadas. Com experiência em projetos freelance, desenvolvo aplicações web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> e <strong>PostgreSQL</strong>. Focado em criar interfaces responsivas, código limpo e soluções escaláveis.",
 		about_resume: "CURRÍCULO",
 		about_resume_link:
 			"https://drive.google.com/file/d/1tOE-ryRV-SCRF2QCrfNirsfUJOG3gG6b/view?usp=sharing",
@@ -58,7 +58,7 @@ const translations = {
 		about_title: "ABOUT ME",
 		about_name: "Pedro",
 		about_p:
-			"With experience in freelance projects, I develop modern <strong>Full Stack</strong> web applications using <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>. Focused on creating responsive interfaces, clean code, and scalable solutions. Currently seeking an opportunity to grow, contribute, and learn in a technology team. Studying <strong>Software Engineering</strong> at <strong>Brigham Young University</strong>.",
+			"Software Engineering student at <strong>Brigham Young University</strong>, passionate about building meaningful technology and collaborating with driven teams. With experience in freelance projects, I develop modern <strong>Full Stack</strong> web applications using <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>. Focused on creating responsive interfaces, clean code, and scalable solutions.",
 		about_resume: "RESUME",
 		about_resume_link:
 			"https://drive.google.com/file/d/1JrOxzB8R4WX4jMDLhoQV2fAWJurcDQuy/view?usp=sharing",
@@ -103,7 +103,7 @@ const translations = {
 		about_title: "SOBRE MÍ",
 		about_name: "Pedro",
 		about_p:
-			"Con experiencia en proyectos freelance, desarrollo aplicaciones web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> y <strong>PostgreSQL</strong>. Enfocado en crear interfaces responsivas, código limpio y soluciones escalables. Actualmente en busca de una oportunidad para crecer, contribuir y aprender en un equipo de tecnología. Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>.",
+			"Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>, apasionado por construir tecnología significativa y colaborar con equipos motivados. Con experiencia en proyectos freelance, desarrollo aplicaciones web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> y <strong>PostgreSQL</strong>. Enfocado en crear interfaces responsivas, código limpio y soluciones escalables.",
 		about_resume: "CURRÍCULUM",
 		about_resume_link:
 			"https://drive.google.com/file/d/1xDvyK4jugPrX52DCvupxX11zuFzrnKWE/view?usp=sharing",

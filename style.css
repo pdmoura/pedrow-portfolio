@@ -467,17 +467,33 @@ main {
 	color: var(--accent) !important;
 	transition: all 0.3s ease;
 	background: var(--glass-bg);
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
+	width: 60px !important;
+	height: 60px !important;
+	min-width: 60px !important;
+	min-height: 60px !important;
+	flex-shrink: 0;
+	border-radius: 50% !important;
 	backdrop-filter: blur(10px);
 	border: 1px solid var(--glass-border);
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0 !important;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
 }
 
 .projects__next::after,
 .projects__prev::after {
-	font-size: 1.2rem;
+	font-size: 1.5rem !important;
 	font-weight: bold;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: auto !important;
+	height: auto !important;
+	margin: 0 !important;
 }
 
 .projects__next:hover,
