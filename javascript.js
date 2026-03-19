@@ -6,7 +6,8 @@ const translations = {
 		nav_projects: "Projetos",
 		nav_skills: "Habilidades",
 		nav_contact: "Contato",
-		hero_accent: "DEVELOPER",
+		hero_title: "DESENVOLVEDOR",
+		hero_accent: "FULL STACK",
 		hero_p: "Resolvo problemas com código e entrego produtos que fazem sentido para quem usa",
 		hero_btn: "PROJETOS",
 		about_title: "SOBRE MIM",
@@ -26,7 +27,7 @@ const translations = {
 		project3_title: "MovieFlix",
 		project3_p:
 			"Plataforma de streaming de filmes com catálogo dinâmico, sistema de favoritos e busca avançada. Design focado em experiência imersiva.",
-		project4_title: "PsicoAdmin",
+		project4_title: "PsicoGestor",
 		project4_p:
 			"Sistema de gestão para psicólogos com agenda dinâmica, automação de pagamentos via Pix e dashboard financeiro.",
 		project_status: "Em Desenvolvimento",
@@ -52,6 +53,7 @@ const translations = {
 		nav_projects: "Projects",
 		nav_skills: "Skills",
 		nav_contact: "Contact",
+		hero_title: "FULL STACK",
 		hero_accent: "DEVELOPER",
 		hero_p: "I solve problems with code and deliver products that make sense for those who use them.",
 		hero_btn: "PROJECTS",
@@ -72,7 +74,7 @@ const translations = {
 		project3_title: "MovieFlix",
 		project3_p:
 			"Movie streaming platform with dynamic catalog, favorites system and advanced search. Design focused on immersive experience.",
-		project4_title: "PsicoAdmin",
+		project4_title: "PsicoGestor",
 		project4_p:
 			"Management system for psychologists with dynamic agenda, Pix payment automation and financial dashboard.",
 		project_status: "In Development",
@@ -97,7 +99,8 @@ const translations = {
 		nav_projects: "Proyectos",
 		nav_skills: "Habilidades",
 		nav_contact: "Contacto",
-		hero_accent: "DEVELOPER",
+		hero_title: "DESARROLLADOR",
+		hero_accent: "FULL STACK",
 		hero_p: "Resuelvo problemas con código y entrego productos que tienen sentido para quienes los usan.",
 		hero_btn: "PROYECTOS",
 		about_title: "SOBRE MÍ",
@@ -117,7 +120,7 @@ const translations = {
 		project3_title: "MovieFlix",
 		project3_p:
 			"Plataforma de streaming de películas con catálogo dinámico, sistema de favoritos y búsqueda avanzada. Diseño centrado en una experiencia inmersiva.",
-		project4_title: "PsicoAdmin",
+		project4_title: "PsicoGestor",
 		project4_p:
 			"Sistema de gestión para psicólogos con agenda dinámica, automatización de pagos vía Pix y panel financiero.",
 		project_status: "En Desarrollo",

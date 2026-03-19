@@ -269,6 +269,10 @@ main {
 	margin-bottom: 20px;
 }
 
+.hero__content h1 span {
+	display: block;
+}
+
 .hero__content p {
 	font-size: 1.2em;
 	color: var(--text-secondary);
