@@ -424,12 +424,11 @@ main {
 
 	.projects__swiper .swiper-wrapper {
 		display: flex; /* Swiper needs display: flex override for desktop */
+		align-items: stretch !important;
 	}
 
 	.projects__swiper .project__card {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
+		height: auto !important;
 	}
 }
 
@@ -517,6 +516,9 @@ main {
 	overflow: hidden;
 	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 	backdrop-filter: blur(10px);
+	display: flex;
+	flex-direction: column;
+	height: auto;
 }
 
 .project__card:hover {
@@ -551,6 +553,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	flex-grow: 1;
 }
 
 .project__card h3 {
@@ -599,6 +602,7 @@ main {
 	font-size: 0.9rem;
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	border: 1px solid var(--accent);
+	margin-top: auto;
 }
 
 .project__card:hover a {

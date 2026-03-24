@@ -31,9 +31,13 @@ const translations = {
 		project4_p:
 			"Sistema de gestão para psicólogos com agenda dinâmica, automação de pagamentos via Pix e dashboard financeiro.",
 		project_status: "Em Desenvolvimento",
+		project_wip: "(Em construção)",
 		project5_title: "Arquiteto & Designer",
 		project5_p:
 			"Landing Page de alta conversão com Glassmorphism, efeitos Parallax e lógica TypeScript para cálculo de experiência.",
+		project6_title: "BYU-Pathway Tracker",
+		project6_p:
+			"Dashboard robusto de planejamento acadêmico. Oferece cálculo automático de sobreposição de créditos e funcionamento offline (PWA).",
 		project_btn: "Ver projeto",
 		skills_title: "HABILIDADES",
 		skills_p:
@@ -78,9 +82,13 @@ const translations = {
 		project4_p:
 			"Management system for psychologists with dynamic agenda, Pix payment automation and financial dashboard.",
 		project_status: "In Development",
+		project_wip: "(In Development)",
 		project5_title: "Architect & Designer",
 		project5_p:
 			"High-conversion Landing Page with Glassmorphism, Parallax effects and TypeScript logic for calculating experience.",
+		project6_title: "BYU-Pathway Tracker",
+		project6_p:
+			"Robust degree planning dashboard. Features automatic credit overlap calculation and offline PWA support.",
 		project_btn: "View Project",
 		skills_title: "SKILLS",
 		skills_p: "Main tools and technologies that power my projects:",
@@ -124,9 +132,13 @@ const translations = {
 		project4_p:
 			"Sistema de gestión para psicólogos con agenda dinámica, automatización de pagos vía Pix y panel financiero.",
 		project_status: "En Desarrollo",
+		project_wip: "(En construcción)",
 		project5_title: "Arquitecto & Diseñador",
 		project5_p:
 			"Landing Page de alta conversión con Glassmorphism, efectos Parallax y lógica TypeScript para el cálculo de la experiencia.",
+		project6_title: "BYU-Pathway Tracker",
+		project6_p:
+			"Robusto panel de planificación académica. Cuenta con cálculo automático de superposición de créditos y soporte sin conexión (PWA).",
 		project_btn: "Ver Proyecto",
 		skills_title: "HABILIDADES",
 		skills_p:
