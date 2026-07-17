@@ -16,7 +16,7 @@ const translations = {
 			"Estudante de <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>, apaixonado por construir tecnologias significativas e colaborar com equipes motivadas. Com experiência em projetos freelance, desenvolvo aplicações web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> e <strong>PostgreSQL</strong>. Focado em criar interfaces responsivas, código limpo e soluções escaláveis.",
 		about_resume: "CURRÍCULO",
 		about_resume_link:
-			"https://drive.google.com/file/d/1tOE-ryRV-SCRF2QCrfNirsfUJOG3gG6b/view?usp=sharing",
+			"https://drive.google.com/file/d/1DNQokzyZ3Omanq-8x5UxS5uZ5RxqvomT/view?usp=sharing",
 		projects_title: "PROJETOS",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
@@ -29,7 +29,7 @@ const translations = {
 			"Plataforma para serviços de Psicologia do Trabalho com animações fluidas e design focado em conversão.",
 		project3_title: "MovieFlix",
 		project3_p:
-			"Plataforma de streaming de filmes com catálogo dinâmico, sistema de favoritos e busca avançada. Design focado em experiência imersiva.",
+			"Projeto acadêmico de uma plataforma de streaming de filmes com catálogo dinâmico, sistema de favoritos e busca avançada. Design focado em experiência imersiva.",
 		project4_title: "PsicoGestor",
 		project4_p:
 			"Sistema de gestão para psicólogos com agenda dinâmica, automação de pagamentos via Pix e dashboard financeiro.",
@@ -70,7 +70,7 @@ const translations = {
 			"Software Engineering student at <strong>Brigham Young University</strong>, passionate about building meaningful technology and collaborating with driven teams. With experience in freelance projects, I develop modern <strong>Full Stack</strong> web applications using <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>. Focused on creating responsive interfaces, clean code, and scalable solutions.",
 		about_resume: "RESUME",
 		about_resume_link:
-			"https://drive.google.com/file/d/1JrOxzB8R4WX4jMDLhoQV2fAWJurcDQuy/view?usp=sharing",
+			"https://drive.google.com/file/d/1i_qB5CpyWxnLLGDUHGNlYgV8qGYz6PbK/view?usp=sharing",
 		projects_title: "PROJECTS",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
@@ -83,7 +83,7 @@ const translations = {
 			"Platform for Occupational Psychology services with fluid animations and design focused on conversion.",
 		project3_title: "MovieFlix",
 		project3_p:
-			"Movie streaming platform with dynamic catalog, favorites system and advanced search. Design focused on immersive experience.",
+			"Academic project of a movie streaming platform with dynamic catalog, favorites system and advanced search. Design focused on immersive experience.",
 		project4_title: "PsicoGestor",
 		project4_p:
 			"Management system for psychologists with dynamic agenda, Pix payment automation and financial dashboard.",
@@ -123,7 +123,7 @@ const translations = {
 			"Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>, apasionado por construir tecnología significativa y colaborar con equipos motivados. Con experiencia en proyectos freelance, desarrollo aplicaciones web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> y <strong>PostgreSQL</strong>. Enfocado en crear interfaces responsivas, código limpio y soluciones escalables.",
 		about_resume: "CURRÍCULUM",
 		about_resume_link:
-			"https://drive.google.com/file/d/1xDvyK4jugPrX52DCvupxX11zuFzrnKWE/view?usp=sharing",
+			"https://drive.google.com/file/d/1V3i43GTL6zVh_duQpJd1yvuZOUsiQASm/view?usp=sharing",
 		projects_title: "PROYECTOS",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
@@ -136,7 +136,7 @@ const translations = {
 			"Plataforma para servicios de Psicología del Trabajo con animaciones fluidas y diseño enfocado a la conversión.",
 		project3_title: "MovieFlix",
 		project3_p:
-			"Plataforma de streaming de películas con catálogo dinámico, sistema de favoritos y búsqueda avanzada. Diseño centrado en una experiencia inmersiva.",
+			"Proyecto académico de una plataforma de streaming de películas con catálogo dinámico, sistema de favoritos y búsqueda avanzada. Diseño centrado en una experiencia inmersiva.",
 		project4_title: "PsicoGestor",
 		project4_p:
 			"Sistema de gestión para psicólogos con agenda dinámica, automatización de pagos vía Pix y panel financiero.",
@@ -420,3 +420,36 @@ updateLanguage(currentLang);
 
 // Handle resize
 window.addEventListener("resize", initSwiper);
+
+// --- GSAP Flight Animation ---
+if (typeof gsap !== "undefined" && typeof MotionPathPlugin !== "undefined") {
+	gsap.registerPlugin(MotionPathPlugin);
+
+	const mp = document.querySelector(".mp");
+	if (mp) {
+		const length = mp.getTotalLength();
+		gsap.set(mp, { strokeDasharray: length, strokeDashoffset: length });
+
+		const tl = gsap
+			.timeline({ repeat: -1, defaults: { ease: "power2.inOut" } })
+			.fromTo(
+				".plane",
+				{ scale: 0.6 },
+				{
+					duration: 4,
+					scale: 1.2,
+					motionPath: {
+						path: ".mp",
+						align: ".mp",
+						alignOrigin: [0.5, 0.5],
+						autoRotate: true,
+					},
+				},
+				0
+			)
+			.to("#svg-stage", { duration: 0.7, opacity: 1 }, 0.25)
+			.to(mp, { duration: 3.8, strokeDashoffset: 0 }, 0.28)
+			.to(mp, { duration: 2, strokeDashoffset: -length, ease: "power2" }, "-=2")
+			.to("#svg-stage", { duration: 0.7, opacity: 0 }, "-=0.9");
+	}
+}

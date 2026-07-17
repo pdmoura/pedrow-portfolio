@@ -416,7 +416,7 @@ main {
 /* Swiper specific styles - Apply only on larger screens */
 @media screen and (min-width: 769px) {
 	.projects__swiper {
-		padding: 2rem 1rem 4rem;
+		padding: 2rem 1rem;
 		margin: 0 -1rem;
 		overflow: hidden;
 		--swiper-navigation-color: var(--accent);
@@ -426,6 +426,7 @@ main {
 	.projects__swiper .swiper-wrapper {
 		display: flex; /* Swiper needs display: flex override for desktop */
 		align-items: stretch !important;
+		margin-bottom: 3rem;
 	}
 
 	.projects__swiper .project__card {
@@ -444,7 +445,7 @@ main {
 }
 
 .projects__pagination.swiper-pagination-bullets {
-	bottom: 0px;
+	bottom: 0;
 }
 
 .projects__pagination .swiper-pagination-bullet {
@@ -703,7 +704,7 @@ main {
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	padding: 8em 0;
+	padding: 8em 0 2em;
 }
 
 .contact__content h2 {
@@ -877,4 +878,21 @@ main {
 	height: 100%;
 	z-index: -1;
 	background: transparent;
+}
+
+/* Flight Animation */
+.flight-anim-container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#svg-stage {
+	width: 100%;
+	max-width: 250px;
+	overflow: visible;
 }

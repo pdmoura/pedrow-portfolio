@@ -323,10 +323,10 @@
 							<div class="project__info">
 								<h3 data-i18n="project3_title">MovieFlix</h3>
 								<p data-i18n="project3_p">
-									Plataforma de streaming de filmes com
+									Projeto acadêmico de uma plataforma de streaming de filmes com
 									catálogo dinâmico, sistema de favoritos e
 									busca avançada. Design focado em experiência
-									immersiva.
+									imersiva.
 								</p>
 								<div class="project__tags">
 									<span>ES Modules</span>
@@ -658,6 +658,23 @@
 						</a>
 					</div>
 				</div>
+				<div class="flight-anim-container">
+					<svg id="svg-stage" xmlns="http://www.w3.org/2000/svg" viewBox="-40 -180 1250 1100" opacity="0">
+						<path class="mp" fill="none" stroke="url(#grad)" stroke-width="4" d="M-92 17.713c154.32 237.253 348.7 486.913 585.407 466.93 137.542-17.257 247.733-123.595 279.259-239.307 27.368-100.43-21.323-229.59-140.017-241.76-118.693-12.172-208.268 98.897-231.122 199.803-34.673 151.333 12.324 312.301 125.096 429.074C639.395 749.225 815.268 819.528 995 819"/>
+						<g class="plane">
+							<path fill="var(--accent)" opacity="0.3" d="m82.8 35 215.9 94.6L79 92l3.8-57Z"/>
+							<path fill="var(--accent)" d="m82.8 35 52-23.5 163.9 118.1-216-94.5Z"/>
+							<path fill="var(--accent)" opacity="0.3" d="m76.8 107.1 214.4 19.6L74.7 131l2.1-23.9Z"/>
+							<path fill="var(--accent)" d="M298.8 130.4 1.9 103.3l54-45 242.9 72.1Z"/>
+						</g>
+						<defs>
+							<linearGradient id="grad" x1="154" x2="160" y1="49" y2="132" gradientUnits="userSpaceOnUse">
+								<stop offset="0" stop-color="var(--accent)"></stop>
+								<stop offset="1" stop-color="var(--glass-border)"></stop>
+							</linearGradient>
+						</defs>
+					</svg>
+				</div>
 			</section>
 		</main>
 		<footer class="footer container">
@@ -674,6 +691,8 @@
 
 		<canvas id="bgCanvas"></canvas>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
 		<script src="javascript.js"></script>
 	</body>
 </html>
