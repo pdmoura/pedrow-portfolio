@@ -18,6 +18,9 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1tOE-ryRV-SCRF2QCrfNirsfUJOG3gG6b/view?usp=sharing",
 		projects_title: "PROJETOS",
+		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_p:
+			"A landing page profissional e moderna da FHE Pinturas, focada em serviços de pintura e acabamentos de alto padrão em Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
 		project1_p:
 			"Portal de notícias robusto com CMS personalizado, sistema de comentários moderado e painel administrativo completo.",
@@ -69,6 +72,9 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1JrOxzB8R4WX4jMDLhoQV2fAWJurcDQuy/view?usp=sharing",
 		projects_title: "PROJECTS",
+		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_p:
+			"A professional and modern landing page for FHE Pinturas, focused on high-standard painting and finishing services in Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
 		project1_p:
 			"Robust news portal with custom CMS, moderated comment system and complete admin panel.",
@@ -119,6 +125,9 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1xDvyK4jugPrX52DCvupxX11zuFzrnKWE/view?usp=sharing",
 		projects_title: "PROYECTOS",
+		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_p:
+			"Una landing page profesional y moderna de FHE Pinturas, enfocada en servicios de pintura y acabados de alto nivel en Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
 		project1_p:
 			"Portal de noticias robusto con CMS personalizado, sistema de comentarios moderado y panel de administración completo.",
