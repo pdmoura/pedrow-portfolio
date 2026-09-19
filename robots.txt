@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pedrow.tech/sitemap.xml
+Sitemap: https://www.pedrow.tech/sitemap.xml
