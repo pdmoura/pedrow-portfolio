@@ -13,11 +13,14 @@ const translations = {
 		about_title: "SOBRE MIM",
 		about_name: "Pedro",
 		about_p:
-			"Estudante de <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>, apaixonado por construir tecnologias significativas e colaborar com equipes motivadas. Com experiência em projetos freelance, desenvolvo aplicações web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> e <strong>PostgreSQL</strong>. Focado em criar interfaces responsivas, código limpo e soluções escaláveis.",
+			"Engenheiro de software e fundador da <strong>CTR Nexus</strong>, estudante de <strong>Engenharia de Software</strong> na <strong>Brigham Young University</strong>, apaixonado por construir tecnologias significativas e colaborar com equipes motivadas. Desenvolvo aplicações web <strong>Full Stack</strong> em produção utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong> e <strong>PostgreSQL</strong>, e atualmente estudo <strong>Ruby on Rails</strong> por meio de projetos open-source. Focado em código limpo, sistemas escaláveis e soluções que resolvem problemas reais.",
 		about_resume: "CURRÍCULO",
 		about_resume_link:
 			"https://drive.google.com/file/d/1DNQokzyZ3Omanq-8x5UxS5uZ5RxqvomT/view?usp=sharing",
 		projects_title: "PROJETOS",
+		project_muquirana_title: "Muquirana (fork Rails) 💎",
+		project_muquirana_p:
+			"Fork de um app open-source de finanças pessoais em Ruby on Rails, usado para aprender Ruby e estudar o modelo de domínio para um app mobile de finanças. Inclui novo endpoint de categorias na API v1 com testes.",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
 			"A landing page profissional e moderna da FHE Pinturas, focada em serviços de pintura e acabamentos de alto padrão em Formosa, Goiás.",
@@ -67,11 +70,14 @@ const translations = {
 		about_title: "ABOUT ME",
 		about_name: "Pedro",
 		about_p:
-			"Software Engineering student at <strong>Brigham Young University</strong>, passionate about building meaningful technology and collaborating with driven teams. With experience in freelance projects, I develop modern <strong>Full Stack</strong> web applications using <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>. Focused on creating responsive interfaces, clean code, and scalable solutions.",
+			"Software engineer and founder of <strong>CTR Nexus</strong>, Software Engineering student at <strong>Brigham Young University</strong>, passionate about building meaningful technology and collaborating with driven teams. I build production <strong>Full Stack</strong> web applications with <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, and <strong>PostgreSQL</strong>, and I am currently learning <strong>Ruby on Rails</strong> through open-source work. Focused on clean code, scalable systems, and solutions that solve real problems.",
 		about_resume: "RESUME",
 		about_resume_link:
 			"https://drive.google.com/file/d/1i_qB5CpyWxnLLGDUHGNlYgV8qGYz6PbK/view?usp=sharing",
 		projects_title: "PROJECTS",
+		project_muquirana_title: "Muquirana (Rails fork) 💎",
+		project_muquirana_p:
+			"Fork of an open-source personal finance app built with Ruby on Rails, used to learn Ruby and study the domain model for a finance-tracker mobile app. Adds a categories endpoint to the v1 REST API, with integration tests.",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
 			"A professional and modern landing page for FHE Pinturas, focused on high-standard painting and finishing services in Formosa, Goiás.",
@@ -120,11 +126,14 @@ const translations = {
 		about_title: "SOBRE MÍ",
 		about_name: "Pedro",
 		about_p:
-			"Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>, apasionado por construir tecnología significativa y colaborar con equipos motivados. Con experiencia en proyectos freelance, desarrollo aplicaciones web <strong>Full Stack</strong> modernas utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong> y <strong>PostgreSQL</strong>. Enfocado en crear interfaces responsivas, código limpio y soluciones escalables.",
+			"Ingeniero de software y fundador de <strong>CTR Nexus</strong>, estudiante de <strong>Ingeniería de Software</strong> en la <strong>Brigham Young University</strong>, apasionado por construir tecnología significativa y colaborar con equipos motivados. Desarrollo aplicaciones web <strong>Full Stack</strong> en producción con <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong> y <strong>PostgreSQL</strong>, y actualmente aprendo <strong>Ruby on Rails</strong> mediante proyectos open-source. Enfocado en código limpio, sistemas escalables y soluciones que resuelven problemas reales.",
 		about_resume: "CURRÍCULUM",
 		about_resume_link:
 			"https://drive.google.com/file/d/1V3i43GTL6zVh_duQpJd1yvuZOUsiQASm/view?usp=sharing",
 		projects_title: "PROYECTOS",
+		project_muquirana_title: "Muquirana (fork Rails) 💎",
+		project_muquirana_p:
+			"Fork de una app open-source de finanzas personales en Ruby on Rails, usada para aprender Ruby y estudiar el modelo de dominio para una app móvil de finanzas. Añade un endpoint de categorías a la API v1 con pruebas de integración.",
 		project_fhe_title: "FHE Pinturas 🎨",
 		project_fhe_p:
 			"Una landing page profesional y moderna de FHE Pinturas, enfocada en servicios de pintura y acabados de alto nivel en Formosa, Goiás.",

@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This project showcases my experience, skills, and projects as a Full Stack Developer. It features a modern, responsive design with a focus on high-performance and a premium user experience.
 
-🚀 **Live Demo:** [pedrow-portfolio.vercel.app](https://pedrow-portfolio.vercel.app/)
+🚀 **Live Demo:** [pedrow-portfolio.vercel.app](https://pedrow.tech/)
 
 ---
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pedrow-portfolio.vercel.app/sitemap.xml
+Sitemap: https://pedrow.tech/sitemap.xml
