@@ -24,6 +24,9 @@ const translations = {
 		project_parking_title: "Estacionamento Rotativo 🅿️",
 		project_parking_p:
 			"Sistema full-stack de reservas de vagas com lista de espera FIFO e promoção automática, ranking e histórico auditável. API NestJS + Prisma com Swagger e testes e2e em CI; painel e portal do motorista em Next.js.",
+		project_projecao_title: "Projeção 🎬",
+		project_projecao_p:
+			"Plataforma de ingressos de cinema: sessões com assentos marcados, checkout transacional no PostgreSQL (compras concorrentes resolvidas sem vender o mesmo assento), ingresso com QR e check-in de uso único na portaria.",
 		project_chore_title: "Chore Tracker ✅",
 		project_chore_p:
 			"Gerenciador de tarefas para famílias com papéis de pai/mãe e filho, autenticação JWT, API NestJS documentada com Swagger, cliente React e PostgreSQL, tudo orquestrado com Docker Compose.",
@@ -90,6 +93,9 @@ const translations = {
 		project_parking_title: "Rotating Parking System 🅿️",
 		project_parking_p:
 			"Full-stack parking reservation system with a FIFO waitlist and automatic promotion, sector ranking and an auditable event history. NestJS + Prisma API with Swagger docs and e2e tests in CI; admin dashboard and driver portal in Next.js.",
+		project_projecao_title: "Projeção 🎬",
+		project_projecao_p:
+			"Cinema ticketing platform: screenings with reserved seating, transactional checkout in PostgreSQL (concurrent purchases resolved without double-selling a seat), QR tickets and single-use gate check-in.",
 		project_chore_title: "Chore Tracker ✅",
 		project_chore_p:
 			"Family chore manager with parent/child roles, JWT authentication, a Swagger-documented NestJS API, React client and PostgreSQL, all orchestrated with Docker Compose.",
@@ -155,6 +161,9 @@ const translations = {
 		project_parking_title: "Estacionamiento Rotativo 🅿️",
 		project_parking_p:
 			"Sistema full-stack de reservas de plazas con lista de espera FIFO y promoción automática, ranking e historial auditable. API NestJS + Prisma con Swagger y pruebas e2e en CI; panel y portal del conductor en Next.js.",
+		project_projecao_title: "Projeção 🎬",
+		project_projecao_p:
+			"Plataforma de entradas de cine: sesiones con asientos numerados, checkout transaccional en PostgreSQL (compras concurrentes resueltas sin vender dos veces el mismo asiento), entrada con QR y check-in de un solo uso en la puerta.",
 		project_chore_title: "Chore Tracker ✅",
 		project_chore_p:
 			"Gestor de tareas familiares con roles de padre/madre e hijo, autenticación JWT, API NestJS documentada con Swagger, cliente React y PostgreSQL, todo orquestado con Docker Compose.",
