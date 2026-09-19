@@ -18,22 +18,22 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1DNQokzyZ3Omanq-8x5UxS5uZ5RxqvomT/view?usp=sharing",
 		projects_title: "PROJETOS",
-		project_muquirana_title: "Muquirana (fork Rails) 💎",
+		project_muquirana_title: "Muquirana (fork Rails)",
 		project_muquirana_p:
 			"Fork de um app open-source de finanças pessoais em Ruby on Rails, usado para aprender Ruby e estudar o modelo de domínio para um app mobile de finanças. Inclui novo endpoint de categorias na API v1 com testes.",
-		project_parking_title: "Estacionamento Rotativo 🅿️",
+		project_parking_title: "Estacionamento Rotativo",
 		project_parking_p:
 			"Sistema full-stack de reservas de vagas com lista de espera FIFO e promoção automática, ranking e histórico auditável. API NestJS + Prisma com Swagger e testes e2e em CI; painel e portal do motorista em Next.js.",
-		project_projecao_title: "Projeção 🎬",
+		project_projecao_title: "Projeção",
 		project_projecao_p:
 			"Plataforma de ingressos de cinema: sessões com assentos marcados, checkout transacional no PostgreSQL (compras concorrentes resolvidas sem vender o mesmo assento), ingresso com QR e check-in de uso único na portaria.",
-		project_chore_title: "Chore Tracker ✅",
+		project_chore_title: "Chore Tracker",
 		project_chore_p:
 			"Gerenciador de tarefas para famílias com papéis de pai/mãe e filho, autenticação JWT, API NestJS documentada com Swagger, cliente React e PostgreSQL, tudo orquestrado com Docker Compose.",
-		project_es_title: "ES Contabilidade 📊",
+		project_es_title: "ES Contabilidade",
 		project_es_p:
 			"Site institucional de um escritório de contabilidade, com foco em SEO, performance e captação de leads via WhatsApp. Projeto de cliente entregue pela CTR Nexus.",
-		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_title: "FHE Pinturas",
 		project_fhe_p:
 			"A landing page profissional e moderna da FHE Pinturas, focada em serviços de pintura e acabamentos de alto padrão em Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
@@ -87,22 +87,22 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1i_qB5CpyWxnLLGDUHGNlYgV8qGYz6PbK/view?usp=sharing",
 		projects_title: "PROJECTS",
-		project_muquirana_title: "Muquirana (Rails fork) 💎",
+		project_muquirana_title: "Muquirana (Rails fork)",
 		project_muquirana_p:
 			"Fork of an open-source personal finance app built with Ruby on Rails, used to learn Ruby and study the domain model for a finance-tracker mobile app. Adds a categories endpoint to the v1 REST API, with integration tests.",
-		project_parking_title: "Rotating Parking System 🅿️",
+		project_parking_title: "Rotating Parking System",
 		project_parking_p:
 			"Full-stack parking reservation system with a FIFO waitlist and automatic promotion, sector ranking and an auditable event history. NestJS + Prisma API with Swagger docs and e2e tests in CI; admin dashboard and driver portal in Next.js.",
-		project_projecao_title: "Projeção 🎬",
+		project_projecao_title: "Projeção",
 		project_projecao_p:
 			"Cinema ticketing platform: screenings with reserved seating, transactional checkout in PostgreSQL (concurrent purchases resolved without double-selling a seat), QR tickets and single-use gate check-in.",
-		project_chore_title: "Chore Tracker ✅",
+		project_chore_title: "Chore Tracker",
 		project_chore_p:
 			"Family chore manager with parent/child roles, JWT authentication, a Swagger-documented NestJS API, React client and PostgreSQL, all orchestrated with Docker Compose.",
-		project_es_title: "ES Contabilidade 📊",
+		project_es_title: "ES Contabilidade",
 		project_es_p:
 			"Corporate website for an accounting firm focused on SEO, performance and WhatsApp lead capture. Client project delivered by CTR Nexus.",
-		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_title: "FHE Pinturas",
 		project_fhe_p:
 			"A professional and modern landing page for FHE Pinturas, focused on high-standard painting and finishing services in Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
@@ -155,22 +155,22 @@ const translations = {
 		about_resume_link:
 			"https://drive.google.com/file/d/1V3i43GTL6zVh_duQpJd1yvuZOUsiQASm/view?usp=sharing",
 		projects_title: "PROYECTOS",
-		project_muquirana_title: "Muquirana (fork Rails) 💎",
+		project_muquirana_title: "Muquirana (fork Rails)",
 		project_muquirana_p:
 			"Fork de una app open-source de finanzas personales en Ruby on Rails, usada para aprender Ruby y estudiar el modelo de dominio para una app móvil de finanzas. Añade un endpoint de categorías a la API v1 con pruebas de integración.",
-		project_parking_title: "Estacionamiento Rotativo 🅿️",
+		project_parking_title: "Estacionamiento Rotativo",
 		project_parking_p:
 			"Sistema full-stack de reservas de plazas con lista de espera FIFO y promoción automática, ranking e historial auditable. API NestJS + Prisma con Swagger y pruebas e2e en CI; panel y portal del conductor en Next.js.",
-		project_projecao_title: "Projeção 🎬",
+		project_projecao_title: "Projeção",
 		project_projecao_p:
 			"Plataforma de entradas de cine: sesiones con asientos numerados, checkout transaccional en PostgreSQL (compras concurrentes resueltas sin vender dos veces el mismo asiento), entrada con QR y check-in de un solo uso en la puerta.",
-		project_chore_title: "Chore Tracker ✅",
+		project_chore_title: "Chore Tracker",
 		project_chore_p:
 			"Gestor de tareas familiares con roles de padre/madre e hijo, autenticación JWT, API NestJS documentada con Swagger, cliente React y PostgreSQL, todo orquestado con Docker Compose.",
-		project_es_title: "ES Contabilidade 📊",
+		project_es_title: "ES Contabilidade",
 		project_es_p:
 			"Sitio institucional de un despacho contable, enfocado en SEO, rendimiento y captación de leads vía WhatsApp. Proyecto de cliente entregado por CTR Nexus.",
-		project_fhe_title: "FHE Pinturas 🎨",
+		project_fhe_title: "FHE Pinturas",
 		project_fhe_p:
 			"Una landing page profesional y moderna de FHE Pinturas, enfocada en servicios de pintura y acabados de alto nivel en Formosa, Goiás.",
 		project1_title: "Opine Agora SC",
